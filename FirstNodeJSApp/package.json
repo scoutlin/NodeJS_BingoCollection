@@ -1,0 +1,12 @@
+{
+  "name": "first-node-jsapp",
+  "version": "0.0.0",
+  "description": "FirstNodeJSApp",
+  "main": "app.js",
+  "author": {
+    "name": "UX303"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
