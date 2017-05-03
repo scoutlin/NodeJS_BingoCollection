@@ -1,1 +1,3 @@
 D:\GitHub\FirstNodeJSApp\FirstNodeJSApp\FirstNodeJSApp\bin\Microsoft.NodejsTools.WebRole.dll
+D:\GitHub\NodeJS\FirstNodeJSApp\FirstNodeJSApp\obj\Debug\FirstNodeJSApp.njsprojResolveAssemblyReference.cache
+D:\GitHub\NodeJS\FirstNodeJSApp\FirstNodeJSApp\bin\Microsoft.NodejsTools.WebRole.dll
