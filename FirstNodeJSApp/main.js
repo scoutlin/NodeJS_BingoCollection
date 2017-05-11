@@ -7,14 +7,17 @@ var fs = require("fs");
 //Set Public Folder
 app.use(express.static(__dirname + '/Public'));
 
+var bodyParser = require('body-parser')
+app.use(bodyParser.json());       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+    extended: true
+}));
+
 
 //Get Process
 app.get('/', function (req, res) {
 
-
-
-
-   res.send("Fuck");
+   res.send("Get Fuck");
 })
 
 app.get('/index.html', function (req, res) {
@@ -54,12 +57,29 @@ app.get('/process_get', function (req, res) {
 })
 
 
+app.post('/scgTest', function (req, res) {
+
+    var json = req.body.json;
+    console.log("post req: " + json);
+
+    var RESP = {
+        'account': 'Scott',
+        'token': 'Jumbo is Good'
+    };
+
+    var stringJSON = JSON.stringify(RESP)
+
+    res.send(stringJSON);
+})
+
+
+
 
 var server = app.listen(8081, function () {
 
-  var host = server.address().address
-  var port = server.address().port
+    var host = server.address().address;
+    var port = server.address().port;
 
-  console.log("Example app listening at http://%s:%s", host, port)
+    console.log("Example app listening at http://%s:%s", host, port);
 
 })
