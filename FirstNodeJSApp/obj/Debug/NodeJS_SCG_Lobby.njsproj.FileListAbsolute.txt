@@ -1,2 +1,0 @@
-D:\GitHub\NodeJS\NodeJS_SCG_Lobby\FirstNodeJSApp\obj\Debug\NodeJS_SCG_Lobby.njsprojResolveAssemblyReference.cache
-D:\GitHub\NodeJS\NodeJS_SCG_Lobby\FirstNodeJSApp\bin\Microsoft.NodejsTools.WebRole.dll
